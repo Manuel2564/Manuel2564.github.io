@@ -9,7 +9,7 @@ body {
 /*Menu princial*/
 
 .menu {
-    background-color: green; 
+    background-color: #04D65F; 
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -37,7 +37,7 @@ body {
 /*Fin Menu principal*/
 
 
-/*Portada Vuelos*/
+/*Portada*/
 .titulo{
     font-size: 100px;
     color: white;
@@ -58,6 +58,58 @@ body {
     text-align: center;
     left: 37%;
 }
+/*Fin de Portadas*/
 
+/*Contenedor Buscador*/
+.caja1{
+    margin: 0px 16px ;
+    height: 200px;
+    padding: 8px, 16px, 48px;
+    display: flex;
+    justify-content: center;
+    border-style:groove;
+    background-color: blueviolet;
+}
 
+.caja1 .contenido{
+    display: block;
+    margin: 30px;
+}
 
+.caja1 .origen{
+    padding: 8px 24px 8px 52px;
+    border-radius: 200px;
+    border-style: hidden;
+    font-size: large;
+
+}
+
+.caja1 .boton{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 200px;
+    border-style: hidden;
+    font-size: large;
+    
+}
+
+.caja1 .destino{
+    padding: 8px 24px 8px 52px;
+    border-radius: 200px;
+    border-style: hidden;
+    font-size: large;
+}
+
+.caja1 .fecha{
+    padding: 8px 24px 8px 52px;
+    border-radius: 200px;
+    border-style: hidden;
+    font-size: large;
+}
+
+.caja1 .personas{
+    padding: 7px 23px 7px 50px;
+    border-radius: 200px;
+    border-style: hidden;
+    font-size: large;
+}
